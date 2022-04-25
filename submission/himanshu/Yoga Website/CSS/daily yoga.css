@@ -1,0 +1,54 @@
+.Daily_Yoga {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+p {
+  padding: 0rem 2rem;
+  font-size: 1.2rem;
+}
+.ul {
+  padding: 0rem 3rem;
+  font-size: 1.2rem;
+}
+h3 {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+h4 {
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.img {
+  float: right;
+  padding: 10px;
+}
+.copyright {
+  background: grey;
+  background-size: cover;
+  text-align: left;
+  padding: 20px;
+}
+/* Intermediate yoga */
+.Intermediate_Yoga {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

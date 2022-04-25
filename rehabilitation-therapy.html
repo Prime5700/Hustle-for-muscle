@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="./js/all.js"></script>
+    
+     <!--Google font-->
+     <link href="https://fonts.googleapis.com/css?family=Arvo:700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/w3.css">
+
+    <style>
+        .mySlides {display:none;}
+    </style>    
+
+    <title>Rehabiliation Therapy</title>
+  </head>
+  <body>
+      <!--navbar-->
+      <nav class="navbar py-3 navbar-light text-uppercase">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+           <span class="navbar-toggler-icon">
+           </span> 
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a href="home.html" class="nav-link">home</a></li>
+                <li class="nav-item "><a href="rehabiliation-physical.html" class="nav-link"> Physical Rehabilitation</a></li>
+                <li class="nav-item "><a href="rehabilitation-therapy.html" class="nav-link"> Rehabilitation Therapy</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <!--End of Nav-->
+      <!--header-->
+      <div class="w3-content w3-section" style="max-width:50%">
+        <img class="mySlides"  src="./img/physicalT.jpg" style="width:100%">
+        <img class="mySlides"  src="./img/occupationalT.jpg" style="width:100%">
+        <img class="mySlides"  src="./img/speechT.jpg" style="width:100%">
+        <img class="mySlides"  src="./img/respT.jpg" style="width:100%">
+        <img class="mySlides"  src="./img/cognitiveT.jpg" style="width:100%">
+        <img class="mySlides"  src="./img/vocationalT.jpg" style="width:100%">
+      </div>  
+      <h3 id="subheading"><u>Physical Therapy</u></h3>
+      <p id="mid"><br>This type of rehabilitation therapy works to improve movement dysfunction. Therapists work with patients to restore movement, strength, stability and/or functional ability and reduce pain via targeted exercise and a range of other treatment methods.
+      </p>
+      <h3 id="subheading"><u>Occupational Therapy</u></h3>
+      <p id="mid"><br>This form of therapy focuses on restoring an individual's ability to perform necessary daily activities. This may mean working to improve fine motor skills, restore balance, or assist patients in learning how to increase their functional ability via use of adaptive equipment, among other potential treatment options.</p>
+      <h3 id="subheading"><u>Speech Therapy</u></h3>
+      <p id="mid"><br>This type of rehabilitation therapy is used to address difficulties with speech, communication and/or swallowing.</p>
+      <h3 id="subheading"><u>Respiratory Therapy</u></h3>
+      <p id="mid"><br>Used to aid patients who have breathing disorders or difficulties, this form of rehabilitation therapy works to help them decrease respiratory distress, maintain open airways and, when necessary, learn how to use inhalers and supplemental oxygen properly</p>
+      <h3 id="subheading"><u>Cognitive Rehabilitation</u></h3>
+      <p id="mid"><br>Also commonly called cognitive-behavior rehabilitation, this type of therapy works with patients to improve memory, thinking and reasoning skills.</p>
+      <h3 id="subheading"><u>Vocational Rehabilitation</u></h3>
+      <p id="mid"><br>This form of therapy is geared towards preparing individuals to return to work after an injury, illness, or medical event.</p>
+          
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+      </div>
+
+      <div>
+        <a href="rehabiliation-index.html" style="color: blue;"><strong>Back to Home</strong></a>
+      </div>
+  
+          <!--End of content-->
+    <!--footer-->
+<footer id="footer" class="bg-dark py-5">
+    <div class="container">
+      <!--title -->
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="display-4 text-uppercase text-white mb-0">
+            <strong>Contact Us</strong>
+          </h1>
+          <div class="title-underline bg-primary"></div>
+          <br/>
+        </div>
+
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col text-center">
+          <a href="#" class="btn">
+            <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+          </a>
+          <a href="#" class="btn">
+            <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+          </a>
+          <a href="#" class="btn">
+            <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+          </a>
+          <a href="#" class="btn">
+            <i class="fab fa-google-plus fa-3x text-primary m-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--End of footer-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.navbar{
+    font-size: 25px;
+    text-align: center;
+    color: red; 
+    font-weight: bold;
+}
+
+.dropdown-item{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown{
+    cursor: pointer;
+    
+}
+
+
+/* CSS for Meditation quotes */
+#quote-1 {
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  padding-top: 1rem;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+  padding: 0.5rem 1rem;
+}
+.Meditation_types {
+  padding: 10px;
+}
+img {
+  float: right;
+  padding: 20px 0px;
+}
+

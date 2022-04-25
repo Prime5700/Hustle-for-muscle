@@ -1,0 +1,92 @@
+.yoga-1 {
+  color: orange;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+}
+.display-2 {
+  color: yellow;
+  font-weight: 900;
+  text-decoration: underline;
+  background: transparent;
+  text-align: center;
+}
+.dropdown-menu a {
+  font-size: 0.8rem;
+}
+#quote {
+  font-size: 25px;
+  color: red;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.yoga {
+  background: transparent;
+  padding: 1rem 1rem;
+  color: black;
+  text-decoration: underline;
+}
+h5 {
+  color: black;
+  text-decoration: underline;
+  background: transparent;
+  padding: 0.5rem 1rem;
+}
+p {
+  background: transparent;
+  padding: 0.5rem 1rem;
+}
+.goals {
+  color: black;
+  background: transparent;
+  text-decoration: underline;
+  padding: 1rem 1rem;
+}
+h6 {
+  color: black;
+  text-decoration: underline;
+  padding: 0.5rem 1rem;
+}
+h3 {
+  text-decoration: underline;
+  padding: 0.5rem 1rem;
+  color: black;
+}
+a {
+  width: fit-content;
+  height: fit-content;
+
+  background: black;
+
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 25px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5));
+}
+.copyright {
+  background: grey;
+  background-size: cover;
+  text-align: justify;
+  padding: 20px;
+}
+/* CSS for Meditation quotes */
+#quote-1 {
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  padding-top: 1rem;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+  padding: 0.5rem 1rem;
+}
+.Meditation_types {
+  padding: 10px;
+}
+img {
+  float: right;
+  padding: 20px 0px;
+}

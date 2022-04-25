@@ -1,0 +1,73 @@
+.Beginners_Meditation {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+p {
+  padding: 0rem 2rem;
+  font-size: 1.2rem;
+}
+.ul {
+  padding: 0rem 3rem;
+  font-size: 1.2rem;
+}
+h3 {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+.img {
+  float: right;
+  padding: 10px;
+}
+.copyright {
+  background: grey;
+  background-size: cover;
+  text-align: justify;
+  padding: 20px;
+}
+/* Bhuddist Meditation */
+.Bhuddist_Meditation {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*hindu meditation*/
+.Hindu_Meditation {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+}
+h4 {
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+a {
+  font-size: 18px;
+}
+/* Chinese Meditation */
+.Chinese_Meditation {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+}
